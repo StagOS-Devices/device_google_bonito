@@ -74,6 +74,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 #    BUILD_WITHOUT_VENDOR := true
 #endif
 
+#Gapps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 28
 
