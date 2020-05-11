@@ -1,5 +1,8 @@
 # Common board config for bonito, sargo
 
+#Ignore Artifact Path
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 # Build vendor image
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
